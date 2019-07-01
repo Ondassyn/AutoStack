@@ -1,0 +1,152 @@
+
+{Copying}: ...
+
+{Compiler}: ...
+{Compiler}: SUCCESS
+
+{Test}: ...
+==> ~CORRECT DEFAULT CONSTRUCTOR : 0 SHOULD HAVE BEEN 0
+==> ~CORRECT DEFAULT CONSTRUCTOR : 1 SHOULD HAVE BEEN 1
+==> ~CORRECT DEFAULT CONSTRUCTOR : EXCEPTION HAS BEEN CAUGHT
+==> ~CORRECT INIT_LIST CONSTRUCTOR : 7 SHOULD HAVE BEEN 7
+==> ~CORRECT INIT_LIST CONSTRUCTOR : 0 SHOULD HAVE BEEN 0
+==> ~INCORRECT INIT_LIST CONSTRUCTOR : 0 SHOULD HAVE BEEN 13
+==> ~CORRECT COPY CONSTRUCTOR : 7 SHOULD HAVE BEEN 7
+==> ~CORRECT COPY CONSTRUCTOR : 0 SHOULD HAVE BEEN 0
+==> ~INCORRECT PUSH and POP : 0 SHOULD HAVE BEEN 16384
+==> ~CORRECT PUSH and POP : 15 SHOULD HAVE BEEN 15
+==> ~INCORRECT PUSH and POP : 16384 SHOULD HAVE BEEN 8192
+==> ~CORRECT PUSH and POP : 14 SHOULD HAVE BEEN 14
+==> ~INCORRECT PUSH and POP : 8192 SHOULD HAVE BEEN 4096
+==> ~CORRECT PUSH and POP : 13 SHOULD HAVE BEEN 13
+==> ~INCORRECT PUSH and POP : 4096 SHOULD HAVE BEEN 2048
+==> ~CORRECT PUSH and POP : 12 SHOULD HAVE BEEN 12
+==> ~INCORRECT PUSH and POP : 2048 SHOULD HAVE BEEN 1024
+==> ~CORRECT PUSH and POP : 11 SHOULD HAVE BEEN 11
+==> ~INCORRECT PUSH and POP : 1024 SHOULD HAVE BEEN 512
+==> ~CORRECT PUSH and POP : 10 SHOULD HAVE BEEN 10
+==> ~INCORRECT PUSH and POP : 512 SHOULD HAVE BEEN 256
+==> ~CORRECT PUSH and POP : 9 SHOULD HAVE BEEN 9
+==> ~INCORRECT PUSH and POP : 256 SHOULD HAVE BEEN 128
+==> ~CORRECT PUSH and POP : 8 SHOULD HAVE BEEN 8
+==> ~INCORRECT PUSH and POP : 128 SHOULD HAVE BEEN 64
+==> ~CORRECT PUSH and POP : 7 SHOULD HAVE BEEN 7
+==> ~INCORRECT PUSH and POP : 64 SHOULD HAVE BEEN 32
+==> ~CORRECT PUSH and POP : 6 SHOULD HAVE BEEN 6
+==> ~INCORRECT PUSH and POP : 32 SHOULD HAVE BEEN 16
+==> ~CORRECT PUSH and POP : 5 SHOULD HAVE BEEN 5
+==> ~INCORRECT PUSH and POP : 16 SHOULD HAVE BEEN 8
+==> ~CORRECT PUSH and POP : 4 SHOULD HAVE BEEN 4
+==> ~INCORRECT PUSH and POP : 8 SHOULD HAVE BEEN 4
+==> ~CORRECT PUSH and POP : 3 SHOULD HAVE BEEN 3
+==> ~INCORRECT PUSH and POP : 4 SHOULD HAVE BEEN 2
+==> ~CORRECT PUSH and POP : 2 SHOULD HAVE BEEN 2
+==> ~INCORRECT PUSH and POP : 2 SHOULD HAVE BEEN 1
+==> ~CORRECT PUSH and POP : 1 SHOULD HAVE BEEN 1
+==> ~CORRECT PUSH and POP : EXCEPTION HAS BEEN CAUGHT
+==> ~CORRECT PUSH and POP : EXCEPTION HAS BEEN CAUGHT
+==> ~INCORRECT ASSIGNMENT OPERATOR : 0 SHOULD HAVE BEEN 18446744073709551595
+==> ~CORRECT ASSIGNMENT OPERATOR : 19 SHOULD HAVE BEEN 19
+==> ~INCORRECT ASSIGNMENT OPERATOR : 18446744073709551595 SHOULD HAVE BEEN 18446744073709551597
+==> ~CORRECT ASSIGNMENT OPERATOR : 18 SHOULD HAVE BEEN 18
+==> ~INCORRECT ASSIGNMENT OPERATOR : 18446744073709551597 SHOULD HAVE BEEN 18446744073709551599
+==> ~CORRECT ASSIGNMENT OPERATOR : 17 SHOULD HAVE BEEN 17
+==> ~INCORRECT ASSIGNMENT OPERATOR : 18446744073709551599 SHOULD HAVE BEEN 18446744073709551601
+==> ~CORRECT ASSIGNMENT OPERATOR : 16 SHOULD HAVE BEEN 16
+==> ~INCORRECT ASSIGNMENT OPERATOR : 18446744073709551601 SHOULD HAVE BEEN 18446744073709551603
+==> ~CORRECT ASSIGNMENT OPERATOR : 15 SHOULD HAVE BEEN 15
+==> ~INCORRECT ASSIGNMENT OPERATOR : 18446744073709551603 SHOULD HAVE BEEN 18446744073709551605
+==> ~CORRECT ASSIGNMENT OPERATOR : 14 SHOULD HAVE BEEN 14
+==> ~INCORRECT ASSIGNMENT OPERATOR : 18446744073709551605 SHOULD HAVE BEEN 18446744073709551607
+==> ~CORRECT ASSIGNMENT OPERATOR : 13 SHOULD HAVE BEEN 13
+==> ~INCORRECT ASSIGNMENT OPERATOR : 18446744073709551607 SHOULD HAVE BEEN 18446744073709551609
+==> ~CORRECT ASSIGNMENT OPERATOR : 12 SHOULD HAVE BEEN 12
+==> ~INCORRECT ASSIGNMENT OPERATOR : 18446744073709551609 SHOULD HAVE BEEN 18446744073709551611
+==> ~CORRECT ASSIGNMENT OPERATOR : 11 SHOULD HAVE BEEN 11
+==> ~INCORRECT ASSIGNMENT OPERATOR : 18446744073709551611 SHOULD HAVE BEEN 18446744073709551613
+==> ~CORRECT ASSIGNMENT OPERATOR : 10 SHOULD HAVE BEEN 10
+==> ~INCORRECT ASSIGNMENT OPERATOR : 18446744073709551613 SHOULD HAVE BEEN 18446744073709551615
+==> ~CORRECT ASSIGNMENT OPERATOR : 9 SHOULD HAVE BEEN 9
+==> ~INCORRECT ASSIGNMENT OPERATOR : 18446744073709551615 SHOULD HAVE BEEN 1
+==> ~CORRECT ASSIGNMENT OPERATOR : 8 SHOULD HAVE BEEN 8
+==> ~INCORRECT ASSIGNMENT OPERATOR : 1 SHOULD HAVE BEEN 13
+==> ~CORRECT ASSIGNMENT OPERATOR : 7 SHOULD HAVE BEEN 7
+==> ~INCORRECT ASSIGNMENT OPERATOR : 13 SHOULD HAVE BEEN 11
+==> ~CORRECT ASSIGNMENT OPERATOR : 6 SHOULD HAVE BEEN 6
+==> ~INCORRECT ASSIGNMENT OPERATOR : 11 SHOULD HAVE BEEN 9
+==> ~CORRECT ASSIGNMENT OPERATOR : 5 SHOULD HAVE BEEN 5
+==> ~INCORRECT ASSIGNMENT OPERATOR : 9 SHOULD HAVE BEEN 7
+==> ~CORRECT ASSIGNMENT OPERATOR : 4 SHOULD HAVE BEEN 4
+==> ~INCORRECT ASSIGNMENT OPERATOR : 7 SHOULD HAVE BEEN 5
+==> ~CORRECT ASSIGNMENT OPERATOR : 3 SHOULD HAVE BEEN 3
+==> ~INCORRECT ASSIGNMENT OPERATOR : 5 SHOULD HAVE BEEN 3
+==> ~CORRECT ASSIGNMENT OPERATOR : 2 SHOULD HAVE BEEN 2
+==> ~INCORRECT ASSIGNMENT OPERATOR : 3 SHOULD HAVE BEEN 1
+==> ~CORRECT ASSIGNMENT OPERATOR : 1 SHOULD HAVE BEEN 1
+==> ~CORRECT ASSIGNMENT OPERATOR : EXCEPTION HAS BEEN CAUGHT
+==> ~CORRECT ASSIGNMENT OPERATOR : EXCEPTION HAS BEEN CAUGHT
+==> ~INCORRECT SELF ASSIGNMENT : 18446744073709551599 SHOULD HAVE BEEN 18446744073709551601
+==> ~CORRECT SELF ASSIGNMENT : 16 SHOULD HAVE BEEN 16
+==> ~CORRECT CLEAR : 0 SHOULD HAVE BEEN 0
+==> ~CORRECT CLEAR : EXCEPTION HAS BEEN CAUGHT
+==> ~CORRECT CLEAR : EXCEPTION HAS BEEN CAUGHT
+==> ~INCORRECT WHAT'S MEANING OF LIFE? : 3 SHOULD HAVE BEEN 42
+==> 
+==> TESTS RUN: 86
+==> 
+==> TESTS CORRECT: 49
+
+{Valgrind}: ...
+==> ==19503== Memcheck, a memory error detector
+==> ==19503== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==> ==19503== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==> ==19503== Command: /home/ondassyn/CSCI152/AutoStack/subms/Rustem\ Rakhimzhanov_91423_assignsubmission_file_/main
+==> ==19503== 
+==> ==19503== Invalid read of size 4
+==> ==19503==    at 0x404F6C: stack::peek() const (in /home/ondassyn/CSCI152/AutoStack/subms/Rustem Rakhimzhanov_91423_assignsubmission_file_/main)
+==> ==19503==    by 0x4015C1: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rustem Rakhimzhanov_91423_assignsubmission_file_/main)
+==> ==19503==  Address 0x5ab820c is 0 bytes after a block of size 28 alloc'd
+==> ==19503==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19503==    by 0x404BA4: stack::stack(std::initializer_list<int>) (in /home/ondassyn/CSCI152/AutoStack/subms/Rustem Rakhimzhanov_91423_assignsubmission_file_/main)
+==> ==19503==    by 0x401432: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rustem Rakhimzhanov_91423_assignsubmission_file_/main)
+==> ==19503== 
+==> ==19503== Conditional jump or move depends on uninitialised value(s)
+==> ==19503==    at 0x402957: checkSizet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long const&, unsigned long const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rustem Rakhimzhanov_91423_assignsubmission_file_/main)
+==> ==19503==    by 0x4018F6: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rustem Rakhimzhanov_91423_assignsubmission_file_/main)
+==> ==19503== 
+==> ==19503== Use of uninitialised value of size 8
+==> ==19503==    at 0x4F3BB13: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==19503==    by 0x4F3D1BB: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<unsigned long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, unsigned long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==19503==    by 0x4F3D36C: std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, unsigned long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==19503==    by 0x4F49699: std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==19503==    by 0x40299E: checkSizet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long const&, unsigned long const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rustem Rakhimzhanov_91423_assignsubmission_file_/main)
+==> ==19503==    by 0x4018F6: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rustem Rakhimzhanov_91423_assignsubmission_file_/main)
+==> ==19503== 
+==> ==19503== Conditional jump or move depends on uninitialised value(s)
+==> ==19503==    at 0x4F3BB1F: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==19503==    by 0x4F3D1BB: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<unsigned long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, unsigned long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==19503==    by 0x4F3D36C: std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, unsigned long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==19503==    by 0x4F49699: std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==19503==    by 0x40299E: checkSizet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long const&, unsigned long const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rustem Rakhimzhanov_91423_assignsubmission_file_/main)
+==> ==19503==    by 0x4018F6: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rustem Rakhimzhanov_91423_assignsubmission_file_/main)
+==> ==19503== 
+==> ==19503== Conditional jump or move depends on uninitialised value(s)
+==> ==19503==    at 0x402957: checkSizet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long const&, unsigned long const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rustem Rakhimzhanov_91423_assignsubmission_file_/main)
+==> ==19503==    by 0x401C0E: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rustem Rakhimzhanov_91423_assignsubmission_file_/main)
+==> ==19503== 
+==> ==19503== 
+==> ==19503== HEAP SUMMARY:
+==> ==19503==     in use at exit: 72,704 bytes in 1 blocks
+==> ==19503==   total heap usage: 34 allocs, 33 frees, 80,855 bytes allocated
+==> ==19503== 
+==> ==19503== LEAK SUMMARY:
+==> ==19503==    definitely lost: 0 bytes in 0 blocks
+==> ==19503==    indirectly lost: 0 bytes in 0 blocks
+==> ==19503==      possibly lost: 0 bytes in 0 blocks
+==> ==19503==    still reachable: 72,704 bytes in 1 blocks
+==> ==19503==         suppressed: 0 bytes in 0 blocks
+==> ==19503== Rerun with --leak-check=full to see details of leaked memory
+==> ==19503== 
+==> ==19503== For counts of detected and suppressed errors, rerun with: -v
+==> ==19503== Use --track-origins=yes to see where uninitialised values come from
+==> ==19503== ERROR SUMMARY: 7 errors from 5 contexts (suppressed: 0 from 0)

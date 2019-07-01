@@ -1,0 +1,13 @@
+
+{Copying}: ...
+
+{Compiler}: ...
+==> stack.cpp:7:1: error: redefinition of ‘stack::stack()’
+==>  stack::stack() :
+==>  ^
+==> In file included from stack.cpp:2:0:
+==> stack.h:15:2: note: ‘stack::stack()’ previously defined here
+==>   stack() :
+==>   ^
+==> make: *** [stack.o] Error 1
+{Compiler}: FAILURE

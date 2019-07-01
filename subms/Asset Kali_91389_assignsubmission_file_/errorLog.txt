@@ -1,0 +1,153 @@
+
+{Copying}: ...
+
+{Compiler}: ...
+==> stack.cpp:13:2: warning: extra ‘;’ [-Wpedantic]
+==>  };
+==>   ^
+==> stack.cpp:18:2: warning: extra ‘;’ [-Wpedantic]
+==>  };
+==>   ^
+==> stack.cpp:27:2: warning: extra ‘;’ [-Wpedantic]
+==>  };
+==>   ^
+==> stack.cpp:53:2: warning: extra ‘;’ [-Wpedantic]
+==>  };
+==>   ^
+==> stack.cpp:68:2: warning: extra ‘;’ [-Wpedantic]
+==>  };
+==>   ^
+==> stack.cpp:83:2: warning: extra ‘;’ [-Wpedantic]
+==>  };
+==>   ^
+==> stack.cpp:95:2: warning: extra ‘;’ [-Wpedantic]
+==>  };
+==>   ^
+==> stack.cpp:101:2: warning: extra ‘;’ [-Wpedantic]
+==>  };
+==>   ^
+==> stack.cpp:109:2: warning: extra ‘;’ [-Wpedantic]
+==>  };
+==>   ^
+==> stack.cpp:115:2: warning: extra ‘;’ [-Wpedantic]
+==>  };
+==>   ^
+{Compiler}: SUCCESS
+
+{Test}: ...
+==> ~CORRECT DEFAULT CONSTRUCTOR : 0 SHOULD HAVE BEEN 0
+==> ~CORRECT DEFAULT CONSTRUCTOR : 1 SHOULD HAVE BEEN 1
+==> ~CORRECT DEFAULT CONSTRUCTOR : EXCEPTION HAS BEEN CAUGHT
+==> ~CORRECT INIT_LIST CONSTRUCTOR : 7 SHOULD HAVE BEEN 7
+==> ~CORRECT INIT_LIST CONSTRUCTOR : 0 SHOULD HAVE BEEN 0
+==> ~INCORRECT INIT_LIST CONSTRUCTOR : 33 SHOULD HAVE BEEN 13
+==> ~CORRECT COPY CONSTRUCTOR : 7 SHOULD HAVE BEEN 7
+==> ~CORRECT COPY CONSTRUCTOR : 0 SHOULD HAVE BEEN 0
+==> ~CORRECT PUSH and POP : 16384 SHOULD HAVE BEEN 16384
+==> ~CORRECT PUSH and POP : 15 SHOULD HAVE BEEN 15
+==> ~CORRECT PUSH and POP : 8192 SHOULD HAVE BEEN 8192
+==> ~CORRECT PUSH and POP : 14 SHOULD HAVE BEEN 14
+==> ~CORRECT PUSH and POP : 4096 SHOULD HAVE BEEN 4096
+==> ~CORRECT PUSH and POP : 13 SHOULD HAVE BEEN 13
+==> ~CORRECT PUSH and POP : 2048 SHOULD HAVE BEEN 2048
+==> ~CORRECT PUSH and POP : 12 SHOULD HAVE BEEN 12
+==> ~CORRECT PUSH and POP : 1024 SHOULD HAVE BEEN 1024
+==> ~CORRECT PUSH and POP : 11 SHOULD HAVE BEEN 11
+==> ~CORRECT PUSH and POP : 512 SHOULD HAVE BEEN 512
+==> ~CORRECT PUSH and POP : 10 SHOULD HAVE BEEN 10
+==> ~CORRECT PUSH and POP : 256 SHOULD HAVE BEEN 256
+==> ~CORRECT PUSH and POP : 9 SHOULD HAVE BEEN 9
+==> ~CORRECT PUSH and POP : 128 SHOULD HAVE BEEN 128
+==> ~CORRECT PUSH and POP : 8 SHOULD HAVE BEEN 8
+==> ~CORRECT PUSH and POP : 64 SHOULD HAVE BEEN 64
+==> ~CORRECT PUSH and POP : 7 SHOULD HAVE BEEN 7
+==> ~CORRECT PUSH and POP : 32 SHOULD HAVE BEEN 32
+==> ~CORRECT PUSH and POP : 6 SHOULD HAVE BEEN 6
+==> ~CORRECT PUSH and POP : 16 SHOULD HAVE BEEN 16
+==> ~CORRECT PUSH and POP : 5 SHOULD HAVE BEEN 5
+==> ~CORRECT PUSH and POP : 8 SHOULD HAVE BEEN 8
+==> ~CORRECT PUSH and POP : 4 SHOULD HAVE BEEN 4
+==> ~CORRECT PUSH and POP : 4 SHOULD HAVE BEEN 4
+==> ~CORRECT PUSH and POP : 3 SHOULD HAVE BEEN 3
+==> ~CORRECT PUSH and POP : 2 SHOULD HAVE BEEN 2
+==> ~CORRECT PUSH and POP : 2 SHOULD HAVE BEEN 2
+==> ~CORRECT PUSH and POP : 1 SHOULD HAVE BEEN 1
+==> ~CORRECT PUSH and POP : 1 SHOULD HAVE BEEN 1
+==> ~CORRECT PUSH and POP : EXCEPTION HAS BEEN CAUGHT
+==> ~CORRECT PUSH and POP : EXCEPTION HAS BEEN CAUGHT
+
+{Valgrind}: ...
+==> ==19988== Memcheck, a memory error detector
+==> ==19988== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==> ==19988== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==> ==19988== Command: /home/ondassyn/CSCI152/AutoStack/subms/Asset\ Kali_91389_assignsubmission_file_/main
+==> ==19988== 
+==> ==19988== Invalid read of size 4
+==> ==19988==    at 0x404CA0: stack::peek() const (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988==    by 0x4015C1: main (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988==  Address 0x5ab8208 is 20 bytes after a block of size 4 alloc'd
+==> ==19988==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19988==    by 0x404A65: stack::stack(std::initializer_list<int>) (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988==    by 0x401432: main (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988== 
+==> ==19988== Mismatched free() / delete / delete []
+==> ==19988==    at 0x4C2F24B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19988==    by 0x404BF9: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988==    by 0x40180C: main (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988==  Address 0x5ab6ce0 is 0 bytes inside a block of size 20 alloc'd
+==> ==19988==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19988==    by 0x4012AC: main (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988== 
+==> ==19988== Invalid write of size 4
+==> ==19988==    at 0x404C1A: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988==    by 0x401AF8: main (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988==  Address 0x5ab820c is 12 bytes after a block of size 16 in arena "client"
+==> ==19988== 
+==> ==19988== Invalid read of size 16
+==> ==19988==    at 0x404B99: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988==    by 0x401AF8: main (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988==  Address 0x5ab8200 is 12 bytes after a block of size 4 alloc'd
+==> ==19988==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19988==    by 0x404A65: stack::stack(std::initializer_list<int>) (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988==    by 0x401432: main (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988== 
+==> 
+==> valgrind: m_mallocfree.c:303 (get_bszB_as_is): Assertion 'bszB_lo == bszB_hi' failed.
+==> valgrind: Heap block lo/hi size mismatch: lo = 80, hi = 18446744047939747835.
+==> This is probably caused by your program erroneously writing past the
+==> end of a heap block and corrupting heap metadata.  If you fix any
+==> invalid writes reported by Memcheck, this assertion failure will
+==> probably go away.  Please try that before reporting this as a bug.
+==> 
+==> 
+==> host stacktrace:
+==> ==19988==    at 0x38083F48: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==> ==19988==    by 0x38084064: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==> ==19988==    by 0x380841F1: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==> ==19988==    by 0x38091A9C: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==> ==19988==    by 0x3807D673: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==> ==19988==    by 0x3807BF03: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==> ==19988==    by 0x380800DA: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==> ==19988==    by 0x3807B49A: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==> ==19988==    by 0x802DD135F: ???
+==> 
+==> sched status:
+==>   running_tid=1
+==> 
+==> Thread 1: status = VgTs_Runnable (lwpid 19988)
+==> ==19988==    at 0x404BAF: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> ==19988==    by 0x401AF8: main (in /home/ondassyn/CSCI152/AutoStack/subms/Asset Kali_91389_assignsubmission_file_/main)
+==> 
+==> 
+==> Note: see also the FAQ in the source distribution.
+==> It contains workarounds to several common problems.
+==> In particular, if Valgrind aborted or crashed after
+==> identifying problems in your program, there's a good chance
+==> that fixing those problems will prevent Valgrind aborting or
+==> crashing, especially if it happened in m_mallocfree.c.
+==> 
+==> If that doesn't help, please report this bug to: www.valgrind.org
+==> 
+==> In the bug report, send all the above text, the valgrind
+==> version, and what OS and version you are using.  Thanks.
+==> 

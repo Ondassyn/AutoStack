@@ -1,0 +1,92 @@
+NewID,FileName,Compiled,Tests-Run,Tests-Correct,V-Pen,FinalScore
+1009108,yes,20,0,0,-1.91,18
+1211224,yes,20,0,0,-1.91,18
+1215611,yes,0,-,-,-,0
+1224440,yes,20,0,0,-1.69,18
+1255642,yes,20,26,14,indefinite,30
+1262359,yes,0,-,-,-,0
+1287221,yes,20,40,35.6,indefinite,66
+1346862,yes,20,25.2,25.2,indefinite,40
+1403138,yes,20,40,38.8,indefinite,69
+1403146,yes,0,-,-,-,0
+1415008,yes,0,-,-,-,0
+1463015,yes,20,25.2,24.4,-2.23,67
+1571364,yes,0,-,-,-,0
+1596538,yes,20,25.2,25.2,-2.23,68
+1665496,yes,0,-,-,-,0
+1696612,yes,20,40,40,-3.6,96
+1778330,yes,0,-,-,-,0
+1778347,yes,0,-,-,-,0
+1821272,yes,0,-,-,-,0
+1834768,yes,20,4,4,-3.06,25
+1861949,yes,20,0,0,-1.69,18
+1878386,yes,20,0,0,-3.69,16
+1947526,yes,0,-,-,-,0
+1972726,yes,20,40,40,0,100
+2057899,yes,20,0,0,-1.69,18
+2121505,yes,20,40,40,0,100
+2203857,yes,20,40,40,0,100
+2212754,yes,20,0,0,-1.69,18
+2272682,no,-,-,-,-,0
+2318118,yes,20,40,39.2,-2.8,96
+2336418,yes,20,40,38,0,98
+2432134,yes,20,40,40,0,100
+2444638,yes,20,40,37.6,-1.91,96
+2526622,yes,20,40,40,0,100
+2590609,yes,20,40,40,-3.87,96
+2590615,yes,0,-,-,-,0
+2603497,yes,20,0,0,-1.69,18
+2613204,yes,20,0,0,-3.78,16
+2645613,yes,20,26,24,indefinite,40
+2724267,yes,20,0,0,-3.09,17
+2734175,yes,0,-,-,-,0
+2767338,yes,20,25.2,25.2,indefinite,40
+2854514,yes,20,0,0,-1.91,18
+2871436,yes,0,-,-,-,0
+3057340,yes,0,-,-,-,0
+3180986,yes,20,40,40,0,100
+3191696,no,-,-,-,-,0
+3303397,yes,20,40,40,0,100
+3328901,yes,0,-,-,-,0
+3358182,yes,20,40,40,0,100
+3428159,yes,20,4,4,-2.6,25
+3487654,yes,20,40,34,-4.41,90
+3536390,yes,0,-,-,-,0
+3574115,yes,0,-,-,-,0
+3673073,yes,0,-,-,-,0
+3676907,yes,0,-,-,-,0
+3696138,yes,0,-,-,-,0
+3707662,yes,20,40,40,0,100
+3765628,yes,20,25.2,25.2,indefinite,40
+,,,,,,
+"NewID = x * x - 13 * x + y + z
+             where:
+             x = last three digits of a student's id number + 1000,
+             y = ascii value of a first character of a first name (case sensitive, 'A'(bay) => 65, not 97),
+             Z = ascii value of a first character of a last name (case sensitive, 'A'(bayev) => 65, not 97).",,,,,,
+"FileName field is responsible for a proper naming and a proper format of your submitted file.
+             The name of your submitted file must be the same as the name of the header provided to you.
+             The file must NOT be compressed (archived).
+             Violating these rules results in zero for the assignment.",,,,,,
+"Compiled field states whether your code compiles successfully without any errors.
+             If your code does not compile you get zero for the whole assignment.
+             If your code compiles successfully you get +20 points.",,,,,,
+"Tests-Run field shows how many tests could be run through your program.
+             If all of the tests were run through your program succesfully you get +40 points. 
+             If your program unexpectedly terminates before all of the test could be run
+             you get +((number of successfully run tests) / (number of tests) * 40) points.
+             If this field says “indefinite”, it means that your program never terminated
+             And you get zero for the fields “Tests-Run”, “Tests-Correct”, and “V-Pen”. ",,,,,,
+"Tests-Correct field shows how many tests were passed successfully.
+             If all of the test were passed you get +40 points. 
+             Otherwise, you get +((number of successfully passed tests) / (number of tests) * 40) points.
+             If this field says “indefinite”, it means that your program never terminated
+             and you get zero for the fields “Tests-Run”, “Tests-Correct”, and “V-Pen”.",,,,,,
+"V-Pen field is responsible for Valgrind check and it shows how many points subtracted as a penalty. 
+             If your code does not cause any memory related errors you get -0 points.
+             Otherwise, a bit convoluted formula is in use. 
+             All you need to know is that the maximum amount of points that can be subtracted from 
+             your final score is -30.
+             If this field says “indefinite”, it means that your program caused Valgrind to freeze
+             and you get -30 points.",,,,,,
+FinalScore field shows your rounded final score.,,,,,,

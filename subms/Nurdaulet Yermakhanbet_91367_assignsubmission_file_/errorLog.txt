@@ -1,0 +1,18 @@
+
+{Copying}: ...
+
+{Compiler}: ...
+==> stack.cpp: In member function ‘stack& stack::operator=(const stack&)’:
+==> stack.cpp:34:9: error: ‘i’ was not declared in this scope
+==>      if((i+1) == array_capacity) throw std::invalid_argument("stacks are same");;  
+==>          ^
+==> stack.cpp: At global scope:
+==> stack.cpp:64:3: error: expected declaration before ‘}’ token
+==>    }
+==>    ^
+==> stack.cpp: In member function ‘stack& stack::operator=(const stack&)’:
+==> stack.cpp:45:2: warning: control reaches end of non-void function [-Wreturn-type]
+==>   }
+==>   ^
+==> make: *** [stack.o] Error 1
+{Compiler}: FAILURE

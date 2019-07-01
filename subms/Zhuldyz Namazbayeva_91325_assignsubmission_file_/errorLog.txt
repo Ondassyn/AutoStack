@@ -1,0 +1,26 @@
+
+{Copying}: ...
+
+{Compiler}: ...
+==> stack.o: In function `checkBool(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool const&, bool const&)':
+==> stack.cpp:(.text+0x800): multiple definition of `checkBool(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool const&, bool const&)'
+==> main.o:main.cpp:(.text+0x0): first defined here
+==> stack.o:(.bss+0x4): multiple definition of `tests_run'
+==> main.o:(.bss+0x4): first defined here
+==> stack.o:(.bss+0x0): multiple definition of `tests_correct'
+==> main.o:(.bss+0x0): first defined here
+==> stack.o: In function `checkSizet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long const&, unsigned long const&)':
+==> stack.cpp:(.text+0x930): multiple definition of `checkSizet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long const&, unsigned long const&)'
+==> main.o:main.cpp:(.text+0x130): first defined here
+==> stack.o: In function `checkDouble(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, double const&, double const&)':
+==> stack.cpp:(.text+0xa50): multiple definition of `checkDouble(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, double const&, double const&)'
+==> main.o:main.cpp:(.text+0x250): first defined here
+==> stack.o: In function `checkString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+==> stack.cpp:(.text+0xbc0): multiple definition of `checkString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+==> main.o:main.cpp:(.text+0x3c0): first defined here
+==> stack.o: In function `main':
+==> stack.cpp:(.text.startup+0x0): multiple definition of `main'
+==> main.o:main.cpp:(.text.startup+0x0): first defined here
+==> collect2: error: ld returned 1 exit status
+==> make: *** [main] Error 1
+{Compiler}: FAILURE

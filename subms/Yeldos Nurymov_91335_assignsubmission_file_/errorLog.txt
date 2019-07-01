@@ -1,0 +1,108 @@
+
+{Copying}: ...
+
+{Compiler}: ...
+{Compiler}: SUCCESS
+
+{Test}: ...
+==> ~CORRECT DEFAULT CONSTRUCTOR : 0 SHOULD HAVE BEEN 0
+==> ~CORRECT DEFAULT CONSTRUCTOR : 1 SHOULD HAVE BEEN 1
+==> ~CORRECT DEFAULT CONSTRUCTOR : EXCEPTION HAS BEEN CAUGHT
+==> ~CORRECT INIT_LIST CONSTRUCTOR : 7 SHOULD HAVE BEEN 7
+==> ~CORRECT INIT_LIST CONSTRUCTOR : 0 SHOULD HAVE BEEN 0
+==> ~CORRECT INIT_LIST CONSTRUCTOR : 13 SHOULD HAVE BEEN 13
+==> ~CORRECT COPY CONSTRUCTOR : 7 SHOULD HAVE BEEN 7
+==> ~CORRECT COPY CONSTRUCTOR : 0 SHOULD HAVE BEEN 0
+==> ~CORRECT PUSH and POP : 16384 SHOULD HAVE BEEN 16384
+==> ~CORRECT PUSH and POP : 15 SHOULD HAVE BEEN 15
+==> ~CORRECT PUSH and POP : 8192 SHOULD HAVE BEEN 8192
+==> ~CORRECT PUSH and POP : 14 SHOULD HAVE BEEN 14
+==> ~CORRECT PUSH and POP : 4096 SHOULD HAVE BEEN 4096
+==> ~CORRECT PUSH and POP : 13 SHOULD HAVE BEEN 13
+==> ~CORRECT PUSH and POP : 2048 SHOULD HAVE BEEN 2048
+==> ~CORRECT PUSH and POP : 12 SHOULD HAVE BEEN 12
+==> ~CORRECT PUSH and POP : 1024 SHOULD HAVE BEEN 1024
+==> ~CORRECT PUSH and POP : 11 SHOULD HAVE BEEN 11
+==> ~CORRECT PUSH and POP : 512 SHOULD HAVE BEEN 512
+==> ~CORRECT PUSH and POP : 10 SHOULD HAVE BEEN 10
+==> ~CORRECT PUSH and POP : 256 SHOULD HAVE BEEN 256
+==> ~CORRECT PUSH and POP : 9 SHOULD HAVE BEEN 9
+==> ~CORRECT PUSH and POP : 128 SHOULD HAVE BEEN 128
+==> ~CORRECT PUSH and POP : 8 SHOULD HAVE BEEN 8
+==> ~CORRECT PUSH and POP : 64 SHOULD HAVE BEEN 64
+==> ~CORRECT PUSH and POP : 7 SHOULD HAVE BEEN 7
+==> ~CORRECT PUSH and POP : 32 SHOULD HAVE BEEN 32
+==> ~CORRECT PUSH and POP : 6 SHOULD HAVE BEEN 6
+==> ~CORRECT PUSH and POP : 16 SHOULD HAVE BEEN 16
+==> ~CORRECT PUSH and POP : 5 SHOULD HAVE BEEN 5
+==> ~CORRECT PUSH and POP : 8 SHOULD HAVE BEEN 8
+==> ~CORRECT PUSH and POP : 4 SHOULD HAVE BEEN 4
+==> ~CORRECT PUSH and POP : 4 SHOULD HAVE BEEN 4
+==> ~CORRECT PUSH and POP : 3 SHOULD HAVE BEEN 3
+==> ~CORRECT PUSH and POP : 2 SHOULD HAVE BEEN 2
+==> ~CORRECT PUSH and POP : 2 SHOULD HAVE BEEN 2
+==> ~CORRECT PUSH and POP : 1 SHOULD HAVE BEEN 1
+==> ~CORRECT PUSH and POP : 1 SHOULD HAVE BEEN 1
+==> ~CORRECT PUSH and POP : EXCEPTION HAS BEEN CAUGHT
+
+{Valgrind}: ...
+==> ==19269== Memcheck, a memory error detector
+==> ==19269== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==> ==19269== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==> ==19269== Command: /home/ondassyn/CSCI152/AutoStack/subms/Yeldos\ Nurymov_91335_assignsubmission_file_/main
+==> ==19269== 
+==> ==19269== Invalid write of size 4
+==> ==19269==    at 0x404ED4: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==    by 0x40180C: main (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==  Address 0x5ab8a44 is 0 bytes after a block of size 20 alloc'd
+==> ==19269==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19269==    by 0x404DBE: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==    by 0x40180C: main (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269== 
+==> ==19269== Invalid read of size 4
+==> ==19269==    at 0x404F08: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==    by 0x40180C: main (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==  Address 0x5ab8a44 is 0 bytes after a block of size 20 alloc'd
+==> ==19269==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19269==    by 0x404DBE: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==    by 0x40180C: main (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269== 
+==> ==19269== Invalid read of size 4
+==> ==19269==    at 0x404F16: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==    by 0x40180C: main (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==  Address 0x5ab8c78 is 0 bytes after a block of size 40 alloc'd
+==> ==19269==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19269==    by 0x404DBE: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==    by 0x40180C: main (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269== 
+==> ==19269== Invalid write of size 4
+==> ==19269==    at 0x404ED4: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==    by 0x401AF8: main (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==  Address 0x5ab97d8 is 0 bytes after a block of size 56 alloc'd
+==> ==19269==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19269==    by 0x404DBE: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==    by 0x401AF8: main (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269== 
+==> ==19269== Invalid read of size 4
+==> ==19269==    at 0x404EBF: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==    by 0x401AF8: main (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==  Address 0x5ab97d8 is 0 bytes after a block of size 56 alloc'd
+==> ==19269==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19269==    by 0x404DBE: stack::push(int) (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269==    by 0x401AF8: main (in /home/ondassyn/CSCI152/AutoStack/subms/Yeldos Nurymov_91335_assignsubmission_file_/main)
+==> ==19269== 
+==> ==19269== 
+==> ==19269== HEAP SUMMARY:
+==> ==19269==     in use at exit: 72,868 bytes in 4 blocks
+==> ==19269==   total heap usage: 59 allocs, 55 frees, 82,243 bytes allocated
+==> ==19269== 
+==> ==19269== LEAK SUMMARY:
+==> ==19269==    definitely lost: 164 bytes in 3 blocks
+==> ==19269==    indirectly lost: 0 bytes in 0 blocks
+==> ==19269==      possibly lost: 0 bytes in 0 blocks
+==> ==19269==    still reachable: 72,704 bytes in 1 blocks
+==> ==19269==         suppressed: 0 bytes in 0 blocks
+==> ==19269== Rerun with --leak-check=full to see details of leaked memory
+==> ==19269== 
+==> ==19269== For counts of detected and suppressed errors, rerun with: -v
+==> ==19269== ERROR SUMMARY: 6 errors from 5 contexts (suppressed: 0 from 0)

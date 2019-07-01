@@ -1,0 +1,121 @@
+
+{Copying}: ...
+
+{Compiler}: ...
+{Compiler}: SUCCESS
+
+{Test}: ...
+
+{Valgrind}: ...
+==> ==20083== Memcheck, a memory error detector
+==> ==20083== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==> ==20083== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==> ==20083== Command: /home/ondassyn/CSCI152/AutoStack/subms/Rabbani\ Mukhanbediya_91379_assignsubmission_file_/main
+==> ==20083== 
+==> ==20083== Conditional jump or move depends on uninitialised value(s)
+==> ==20083==    at 0x402957: checkSizet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long const&, unsigned long const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x401565: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083== 
+==> ==20083== Use of uninitialised value of size 8
+==> ==20083==    at 0x4F3BB13: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F3D1BB: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<unsigned long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, unsigned long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F3D36C: std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, unsigned long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F49699: std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x40299E: checkSizet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long const&, unsigned long const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x401565: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083== 
+==> ==20083== Conditional jump or move depends on uninitialised value(s)
+==> ==20083==    at 0x4F3BB1F: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F3D1BB: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<unsigned long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, unsigned long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F3D36C: std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, unsigned long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F49699: std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x40299E: checkSizet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long const&, unsigned long const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x401565: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083== 
+==> ==20083== Conditional jump or move depends on uninitialised value(s)
+==> ==20083==    at 0x402827: checkBool(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool const&, bool const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x401595: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083== 
+==> ==20083== Conditional jump or move depends on uninitialised value(s)
+==> ==20083==    at 0x4F3CCAE: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F3CF5F: std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, bool) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F498FA: std::ostream& std::ostream::_M_insert<bool>(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4028F5: checkBool(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool const&, bool const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x401595: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083== 
+==> ==20083== Use of uninitialised value of size 8
+==> ==20083==    at 0x4F3BB13: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F3CCD9: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F3CF5F: std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, bool) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F498FA: std::ostream& std::ostream::_M_insert<bool>(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4028F5: checkBool(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool const&, bool const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x401595: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083== 
+==> ==20083== Conditional jump or move depends on uninitialised value(s)
+==> ==20083==    at 0x4F3BB1F: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F3CCD9: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F3CF5F: std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, bool) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F498FA: std::ostream& std::ostream::_M_insert<bool>(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4028F5: checkBool(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool const&, bool const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x401595: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083== 
+==> ==20083== Conditional jump or move depends on uninitialised value(s)
+==> ==20083==    at 0x4F3CD0C: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F3CF5F: std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, bool) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F498FA: std::ostream& std::ostream::_M_insert<bool>(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4028F5: checkBool(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool const&, bool const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x401595: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083== 
+==> ==20083== Conditional jump or move depends on uninitialised value(s)
+==> ==20083==    at 0x4F3CCAE: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F3CF5F: std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, bool) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F498FA: std::ostream& std::ostream::_M_insert<bool>(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x402914: checkBool(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool const&, bool const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x401595: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083== 
+==> ==20083== Conditional jump or move depends on uninitialised value(s)
+==> ==20083==    at 0x4F3CD0C: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F3CF5F: std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, bool) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x4F498FA: std::ostream& std::ostream::_M_insert<bool>(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==> ==20083==    by 0x402914: checkBool(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool const&, bool const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x401595: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083== 
+==> ==20083== Conditional jump or move depends on uninitialised value(s)
+==> ==20083==    at 0x404F87: stack::peek() const (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x4015C1: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083== 
+==> ==20083== Use of uninitialised value of size 8
+==> ==20083==    at 0x404F8C: stack::peek() const (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x4015C1: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083== 
+==> ==20083== Invalid read of size 4
+==> ==20083==    at 0x404F8C: stack::peek() const (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x4015C1: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==  Address 0x15af6d04 is not stack'd, malloc'd or (recently) free'd
+==> ==20083== 
+==> ==20083== 
+==> ==20083== Process terminating with default action of signal 11 (SIGSEGV)
+==> ==20083==  Access not within mapped region at address 0x15AF6D04
+==> ==20083==    at 0x404F8C: stack::peek() const (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==    by 0x4015C1: main (in /home/ondassyn/CSCI152/AutoStack/subms/Rabbani Mukhanbediya_91379_assignsubmission_file_/main)
+==> ==20083==  If you believe this happened as a result of a stack
+==> ==20083==  overflow in your program's main thread (unlikely but
+==> ==20083==  possible), you can try to increase the size of the
+==> ==20083==  main thread stack using the --main-stacksize= flag.
+==> ==20083==  The main thread stack size used in this run was 8388608.
+==> ==20083== 
+==> ==20083== HEAP SUMMARY:
+==> ==20083==     in use at exit: 73,943 bytes in 8 blocks
+==> ==20083==   total heap usage: 12 allocs, 4 frees, 78,242 bytes allocated
+==> ==20083== 
+==> ==20083== LEAK SUMMARY:
+==> ==20083==    definitely lost: 0 bytes in 0 blocks
+==> ==20083==    indirectly lost: 0 bytes in 0 blocks
+==> ==20083==      possibly lost: 0 bytes in 0 blocks
+==> ==20083==    still reachable: 73,943 bytes in 8 blocks
+==> ==20083==         suppressed: 0 bytes in 0 blocks
+==> ==20083== Rerun with --leak-check=full to see details of leaked memory
+==> ==20083== 
+==> ==20083== For counts of detected and suppressed errors, rerun with: -v
+==> ==20083== Use --track-origins=yes to see where uninitialised values come from
+==> ==20083== ERROR SUMMARY: 29 errors from 13 contexts (suppressed: 0 from 0)

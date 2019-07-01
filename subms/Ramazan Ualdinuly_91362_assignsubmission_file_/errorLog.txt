@@ -1,0 +1,87 @@
+
+{Copying}: ...
+
+{Compiler}: ...
+{Compiler}: SUCCESS
+
+{Test}: ...
+{Test}: FAILURE
+==> terminate called after throwing an instance of 'std::bad_alloc'
+==>   what():  std::bad_alloc
+==> ~CORRECT DEFAULT CONSTRUCTOR : 0 SHOULD HAVE BEEN 0
+==> ~CORRECT DEFAULT CONSTRUCTOR : 1 SHOULD HAVE BEEN 1
+==> ~CORRECT DEFAULT CONSTRUCTOR : EXCEPTION HAS BEEN CAUGHT
+
+{Valgrind}: ...
+==> ==19380== Memcheck, a memory error detector
+==> ==19380== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==> ==19380== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==> ==19380== Command: /home/ondassyn/CSCI152/AutoStack/subms/Ramazan\ Ualdinuly_91362_assignsubmission_file_/main
+==> ==19380== 
+==> ==19380== Conditional jump or move depends on uninitialised value(s)
+==> ==19380==    at 0x404B88: stack::stack(std::initializer_list<int>) (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==    by 0x401432: main (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380== 
+==> ==19380== Conditional jump or move depends on uninitialised value(s)
+==> ==19380==    at 0x4C2E7BC: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19380==    by 0x404B98: stack::stack(std::initializer_list<int>) (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==    by 0x401432: main (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380== 
+==> ==19380== Warning: set address range perms: large range [0x5ea5040, 0x15ee3b58) (undefined)
+==> ==19380== Invalid write of size 8
+==> ==19380==    at 0x404CBB: stack::operator=(stack const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==    by 0x401BB9: main (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==  Address 0x5ab84e8 is 0 bytes after a block of size 56 alloc'd
+==> ==19380==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19380==    by 0x404A2B: stack::stack(stack const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==    by 0x401603: main (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380== 
+==> ==19380== Invalid write of size 4
+==> ==19380==    at 0x404CD4: stack::operator=(stack const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==    by 0x401BB9: main (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==  Address 0x5ab84f0 is 8 bytes after a block of size 56 alloc'd
+==> ==19380==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19380==    by 0x404A2B: stack::stack(stack const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==    by 0x401603: main (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380== 
+==> ==19380== Invalid write of size 4
+==> ==19380==    at 0x404CEB: stack::operator=(stack const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==    by 0x401BB9: main (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==  Address 0x5ab84f4 is 12 bytes after a block of size 56 alloc'd
+==> ==19380==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19380==    by 0x404A2B: stack::stack(stack const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==    by 0x401603: main (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380== 
+==> ==19380== Invalid write of size 4
+==> ==19380==    at 0x404CF4: stack::operator=(stack const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==    by 0x401BB9: main (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==  Address 0x5ab84f8 is 16 bytes after a block of size 56 alloc'd
+==> ==19380==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19380==    by 0x404A2B: stack::stack(stack const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==    by 0x401603: main (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380== 
+==> ==19380== Invalid read of size 4
+==> ==19380==    at 0x404EBC: stack::peek() const (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==    by 0x401E2B: main (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==  Address 0x5ab84ec is 4 bytes after a block of size 56 alloc'd
+==> ==19380==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==> ==19380==    by 0x404A2B: stack::stack(stack const&) (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380==    by 0x401603: main (in /home/ondassyn/CSCI152/AutoStack/subms/Ramazan Ualdinuly_91362_assignsubmission_file_/main)
+==> ==19380== 
+==> ==19380== Warning: set address range perms: large range [0x5ea5028, 0x15ee3b70) (noaccess)
+==> ==19380== 
+==> ==19380== HEAP SUMMARY:
+==> ==19380==     in use at exit: 72,704 bytes in 1 blocks
+==> ==19380==   total heap usage: 30 allocs, 29 frees, 268,772,824 bytes allocated
+==> ==19380== 
+==> ==19380== LEAK SUMMARY:
+==> ==19380==    definitely lost: 0 bytes in 0 blocks
+==> ==19380==    indirectly lost: 0 bytes in 0 blocks
+==> ==19380==      possibly lost: 0 bytes in 0 blocks
+==> ==19380==    still reachable: 72,704 bytes in 1 blocks
+==> ==19380==         suppressed: 0 bytes in 0 blocks
+==> ==19380== Rerun with --leak-check=full to see details of leaked memory
+==> ==19380== 
+==> ==19380== For counts of detected and suppressed errors, rerun with: -v
+==> ==19380== Use --track-origins=yes to see where uninitialised values come from
+==> ==19380== ERROR SUMMARY: 7 errors from 7 contexts (suppressed: 0 from 0)

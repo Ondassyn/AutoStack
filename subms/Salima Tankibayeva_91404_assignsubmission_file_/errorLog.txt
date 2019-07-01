@@ -1,0 +1,20 @@
+
+{Copying}: ...
+
+{Compiler}: ...
+==> stack.cpp:6:2: error: redefinition of ‘stack::stack()’
+==>   stack::stack() :
+==>   ^
+==> In file included from stack.cpp:4:0:
+==> stack.h:15:2: note: ‘stack::stack()’ previously defined here
+==>   stack() :
+==>   ^
+==> stack.cpp:120:7: error: redefinition of ‘void stack::print(std::ostream&) const’
+==>   void stack::print(std::ostream& out) const {
+==>        ^
+==> In file included from stack.cpp:4:0:
+==> stack.h:52:7: note: ‘void stack::print(std::ostream&) const’ previously defined here
+==>   void print(std::ostream& out) const {
+==>        ^
+==> make: *** [stack.o] Error 1
+{Compiler}: FAILURE
